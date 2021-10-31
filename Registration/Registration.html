@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+       * {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+       }
+        body {
+            background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+          background-position:center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+            color: black;
+            text-align: center;
+        }
+        table {
+            margin-left: 110px;
+            text-align: left;
+            
+            
+            
+        }
+        .signup {
+            padding-top: 50px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.466);
+            margin-right: 27%;
+            margin-left: 31%;
+            border-radius: 100%;
+            box-shadow: 0 0 100px white;
+        }
+        
+        tr {
+            margin-right: 5px;
+        }
+        td {
+            padding-right: 50px;
+        }
+        h1 {
+            color: white;
+            font-size: 45px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgba(0, 0, 0, 0.486);
+            width: 450px;
+            margin-left: 37%;
+            padding-bottom: 10px;
+            box-shadow: 0 0 10px black;
+
+        }
+        button {
+            padding: 10px 30px 10px 30px;
+            color: white;
+            background-color: rgb(0, 255, 106);
+            border: 0px;
+            margin: 10px;
+            border-radius: 3px;
+            box-shadow: 0 0 10px black;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+
+        }
+        
+        .in {
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black;
+            
+        }
+        textarea {
+            width: 400px;
+            height: 100px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <form class="signup">
+        <table >
+
+            <tr>          
+                <th>
+                    <label>First Name*</label>
+                </th>
+                <th>
+                    <label>Last Name</label>
+                </th>
+            </tr>   
+            <tr>
+                <td>
+                    <input type="text" class="in"/>
+
+                </td>
+                <td>
+                    <input type="text" class="in"/>
+                </td>
+            </tr>
+
+
+        </table>
+        <table >
+            <tr>          
+                <th>
+                    <label>Email*</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="in"/>
+                </td>
+            </tr>   
+        </table>
+        <table>
+            <tr>          
+                <th>
+                    <label>Password*</label>
+                </th>
+                <th>
+                    <label>Comfirm Password*</label>
+                </th>
+            </tr>   
+            <tr>
+                <td>
+                    <input type="password" class="in"/>
+
+                </td>
+                <td>
+                    <input type="password" class="in" />
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>          
+                <th>
+                    <label>Gender</label>
+                </th>
+                <th>
+                    <label>Hobbies</label>
+                </th>
+            </tr>   
+            <tr>
+                <td>
+                    <input type="radio" name="gender"/>
+                    <label>Male</label>
+                    <input type="radio" name="gender"/>
+                    <label>
+                        Female
+                    </label>
+
+                </td>
+                <td>
+                    
+                    <input type="checkbox" />
+                    <label>Games</label>
+                    <input type="checkbox" />
+                    <label>Music</label>
+                    <input type="checkbox" />
+                    <label>Art</label>
+
+                </td>
+            </tr>
+        </table>
+        <table >
+            <tr>          
+                <th>
+                    <label>Bio</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="Bio" id="Bio" cols="50" rows="5"></textarea>
+                </td>
+            </tr>   
+        </table>
+        <table>
+            <tr>
+                <button>
+                    Submit
+                </button>
+            </tr>   
+        </table>
+
+
+
+
+
+
+
+
+
+    </form>
+    
+
+    
+</body>
+</html>
