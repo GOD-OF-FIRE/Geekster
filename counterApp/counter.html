@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <script>
+        
+        function increment(id) {
+            var int = document.getElementById('num')
+            var num = document.getElementById('num').value
+            var integer=parseInt(num)
+            integer += 1;
+            int.value = integer
+        }
+        function decrement(id){
+            var int = document.getElementById('num')
+            var num = document.getElementById('num').value
+            var integer=parseInt(num)
+            integer -= 1;
+            int.value = integer;
+        }
+
+
+    </script>
+    <style>
+        body {
+            color: cornsilk;
+            background-color: black;
+            text-align: center;
+
+        }
+
+        .container {
+            padding-top:200px ;
+            display: inline-flex;
+            display: inline-block;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: blanchedalmond;
+            height: 40vh;
+            width: 40vw;
+            margin-top: 5%;
+            border-radius: 10px;
+        }
+
+        button {
+            margin: 20px;
+            width: 100px;
+            height: 40px;
+            border-radius: 4px;
+
+        }
+
+        input {
+            width: 400px;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Counter</h1>
+    <div class="container">
+        <input type="number" id="num" value=0>
+        <br>
+        <button id="plus" onclick="increment('plus')">+</button>
+        <button id="minus" onclick="decrement('minus')">-</button>
+        
+
+    </div>
+
+</body>
+
+</html>
