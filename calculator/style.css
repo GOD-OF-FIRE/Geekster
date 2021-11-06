@@ -1,0 +1,51 @@
+/* heading style */
+h1{
+    text-align: center;
+    
+}
+/* body style */
+
+body{
+    background-color: #403B4A;
+    color: #E7E9BB;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* div container style */
+div{
+    
+    background:linear-gradient(#403B4A, #E7E9BB,#403B4A);
+    text-align: center;
+    width: 70vw;
+    height: 70vh;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px ;
+    
+    
+}
+/* display style */
+input{
+    width: 61vw;
+    height: 10vh;
+    font-size: xx-large;
+    border-radius: 10px ;
+    border: 0px;
+    margin-bottom: 10px;
+}
+/* buttons style */
+button{
+    margin: 2px;
+    width: 20vw;
+    height: 10vh;
+    font-size: larger;
+    border-radius: 10px ;
+    border: 0px;
+}
+
+/* button hover style */
+button:hover{
+    background-color:#403B4A ;
+    color: #E7E9BB;
+}
