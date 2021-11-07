@@ -1,0 +1,55 @@
+/* global style */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body style */
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+/* heading style */
+h1{
+    color: blanchedalmond;
+    font-size: 70px;
+    position: absolute;
+    top: 5px;
+}
+/* div style */
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    color: black;
+    width: 40vw;
+    height: 30vh;
+    font-size: 100px;
+    box-shadow: 0 0 50px blanchedalmond;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+/* footer styles */
+footer{color: blanchedalmond;
+    font-size: 20px;
+    position: absolute;
+    bottom: 1px;
+
+}
+/* span in footer styles */
+span{
+    color:red;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+}
+/* div hover style */
+div:hover{
+    transform: scale(1.2);
+}
