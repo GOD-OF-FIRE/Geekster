@@ -10,7 +10,7 @@ function update()
 {
     integer -= 1;
     time.innerText = integer;
-    if(integer<=0)
+    if(integer<0)
     {
         document.getElementById("countdown").innerHTML = "TIMES UP";
         document.getElementById("container").style.backgroundColor="red";
