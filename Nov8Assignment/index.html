@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="q1">
+            <h1>Question 1</h1>
+            <input type="number" id="height" placeholder="Enter Height">
+            <input type="number" id="radius" placeholder="Enter Radius">
+            <p id="ans1a"></p>
+            <p id="ans1b"></p>
+            <button onclick="ques1()">Calculate</button>
+        </div>
+        <div class="q2">
+            <h1>Question 2</h1>
+            <input type="number" id="voltage" placeholder="Enter Voltage">
+            <input type="number" id="current" placeholder="Enter Current">
+            <p id="ans2"></p>
+            <button onclick="ques2()">Calculate</button>
+        </div>
+        <div class="q3">
+            <!-- <h1>Question 3</h1> -->
+        </div>
+    </div>
+    <script>
+        var pi=3.14
+        function ques1() {
+            let h = document.getElementById('height').value
+            let r = document.getElementById('radius').value 
+            let vol = pi*r*r*h
+            let sa = (2*pi*r*h)+(2*pi*r*r)
+            document.getElementById('ans1a').innerText = " Volume = "+vol 
+            document.getElementById('ans1b').innerText = "Surface Area ="+sa
+        }
+        function ques2() {
+            let v = document.getElementById('voltage').value
+            let i = document.getElementById('current').value
+            let p = v*i
+            document.getElementById('ans2').innerText = " Power = "+p
+        }
+    </script>
+</body>
+</html>
