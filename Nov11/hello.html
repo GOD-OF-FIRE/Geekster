@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        div {
+            text-align: center;
+            width: 30vw;
+            height: 10vh;
+            margin:250px auto;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="p1">Hello Kushagra</p>
+        <button onclick="gm()">Good Morning</button>
+        <button onclick="ge()">Good Evening</button>
+        <button onclick="gn()">Good Night</button>
+    </div>
+    <script>
+        var pRef = document.getElementById('p1');
+        function gm() {
+            pRef.innerText = "Good Morning Kushagra"
+            pRef.style.color = 'lightblue'
+            var div = document.querySelector('div')
+            div.style.background = "black"
+        }
+        function ge() {
+            pRef.innerText = "Good Evening Kushagra"
+            pRef.style.color = 'red'
+            var div = document.querySelector('div')
+            div.style.background = "yellow"
+        }
+        function gn() {
+            pRef.innerText = "Good Night Kushagra"
+            pRef.style.color = 'black'
+            var div = document.querySelector('div')
+            div.style.background = "lightblue"
+            
+        }
+
+    </script>
+</body>
+</html>

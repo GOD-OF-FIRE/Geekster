@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <style>
+        * {
+            margin: 0;
+
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            background-image: url("https://images.pexels.com/photos/6963098/pexels-photo-6963098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+        }
+
+        div {
+
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.637);
+            color: white;
+            padding: 250px 650px;
+            padding-right: 0%;
+        }
+        input{
+            margin: 5px;
+            height: 5%;
+            font-size: 20px;
+        }
+        button{
+            height: 6%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Show/Hide password</h1>
+        <input type="password" id="i1" value="" placeholder="Enter Password" />
+        <button onclick="toggle()" id="btn">Show password</button>
+    </div>
+    <script>
+        var flag = false
+        function toggle() {
+            var inputRef = document.getElementById('i1')
+            var btn = document.querySelector('button')
+            if (flag) {
+                inputRef.type = "password"
+                btn.innerText = "Show Password"
+                flag = false;
+            }
+            else {
+                inputRef.type = "text"
+                btn.innerText = "Hide Password"
+                flag = true;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
