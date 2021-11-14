@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sassy+Frass&family=Shalimar&display=swap');
+h1{
+    font-family: 'Shalimar', cursive;
+    font-size: 70px;
+    color: rgb(255, 167, 35);
+}
+div{
+    box-shadow: 0 0 50px black;
+    padding-top: 0%;
+    text-align: center;
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(128, 128, 128);
+    border-radius: 5px;
+}
+input{
+    margin: 0%;
+    width: 70%;
+    height: 10%;
+    
+}
+i{
+    color: rgb(255, 167, 35);
+    cursor: pointer;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(255, 167, 35);
+    font-size: 20px;
+}
