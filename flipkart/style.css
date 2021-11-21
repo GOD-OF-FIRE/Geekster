@@ -50,8 +50,16 @@ label{
 select{
     cursor: pointer;
     position: relative;
-    top: -10px;
+    top: 15px;
+    right: 40px;
     visibility: hidden;
+    width: 200px;
+    height: 40px;
+    color: #2874f0;
+}
+option{
+    color: #2874f0;
+   background-color: white;
 }
 select:hover{
     visibility: visible;
