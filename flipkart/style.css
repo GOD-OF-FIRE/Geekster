@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #2874f0;
+    position:sticky;
+    width: 100vw;
+    height: 56px;
+    padding-left: 10%;
+}
+.header img{
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+#search{
+    position: relative;
+    top: -10px;
+    width: 30vw;
+    height: 4vh;
+    margin-left: 4%;
+    border: 0;
+    outline: 0 none;
+
+}
+#mag{
+    background-color: #fff;
+    border: none;
+    height: 4vh;
+    width: 2vw;
+    cursor: pointer;
+}
+#login{
+    position: relative;
+    top: -10px;
+    width: 8vw;
+    height: 4vh;
+    margin-left: 20%;
+    color: #2874f0;
+    cursor: pointer;
+}
+label{
+    margin-left:20px ;
+    position: relative;
+    top: -10px;
+    color: white;
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    visibility: hidden;
+}
+select:hover{
+    visibility: visible;
+}
+.addContent{
+    width: 100vw;
+    height: 45vh;
+    cursor: pointer;
+}
+.secondDiv{
+    padding-left: 10%;
+    width: 100vw;
+    height: 50px;
+}
+span{
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+    padding-left: 6%;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+span:hover{
+    color: #2874f0;
+}
+td{
+   padding-left: 75px;
+   text-align: center;
+    font-weight: bold;
+    font-family:sans-serif;
+   padding-top: 10px;
+   cursor: pointer;
+}
+td img:hover{
+    transform: scale(1.1);
+}
+.price
+{
+    color: #388e3c;
+    font-weight: normal;
+}
