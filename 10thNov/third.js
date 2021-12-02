@@ -1,10 +1,10 @@
-function generateArray(n1, n2) {
+function generateArray(x, y) {
   let arr = new Array();
-  for (let n = n1; n <= n2; n++) {
+  for (let n = x; n <= y; n++) {
     arr.push(n);
   }
   return arr;
 }
 
-let arr = generateArray(8, 6);
+let arr = generateArray(4, 3);
 console.log(arr);
