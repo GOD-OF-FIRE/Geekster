@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekster</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <img src="Geekster.png" alt="">
+    <div class="container">
+        <h2>Admission form for Geekster</h2>
+
+        <form>
+            <h3>Personal Information</h3>
+            <input type="text" name="f_name" placeholder="First Name*" required>
+            <input type="text" name="l_name" placeholder="Last Name">
+            <br>
+            <input type="email" name="mail" placeholder="Email ID*">
+            <input type="number" name="phone" placeholder="Contact Number*">
+            <br>
+            <select >
+                <option selected disabled>Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </select>
+            
+            <input type="date" max="2022-01-01" >
+            <br>
+            <textarea cols="30" rows="4" placeholder="Address"></textarea>
+            <br>
+            <hr>
+            <h3>Educational Information</h3>
+            <select>
+                <option selected disabled>Degree</option>
+                <optgroup label="Bachelors">
+                    <option value="">B.tech</option>
+                    <option value="">B.E</option>
+                    <option value="">B.Sc</option>
+                </optgroup>
+                <optgroup label="Master">
+                    <option value="">M.tech</option>
+                    <option value="">M.E</option>
+                    <option value="">M.Sc</option>
+                </optgroup>
+            </select>
+
+            <input type="text" placeholder="College Name">
+            <br>
+            <input type="number" placeholder="Graduation Year">
+
+            <input type="number" placeholder="Percentage">
+            <br>
+            <label for="">Upload Resume:</label>
+            
+            <input id="file" type="file">
+            <br>
+            <hr>
+            <label> Course:</label>
+            <select id="course">
+                <option selected disabled>Course</option>
+                <optgroup label="WEB">
+                    <option value="">Fundamental</option>
+                    <option value="">Advance</option>
+                    
+                </optgroup>
+                <optgroup label="Java">
+                    <option value="">Fundamental</option>
+                    <option value="">Back-End</option>
+                </optgroup>
+                <optgroup label="DSA">
+                    <option value="">Fundamental</option>
+                    <option value="">Advance</option>
+                </optgroup>
+            </select>
+            <br>
+            <input class="btn apply" type="submit" value="Apply for Admission" /> 
+            <input class="btn reset" type="reset" >
+        </form>
+    </div>
+
+
+</body>
+
+</html>
