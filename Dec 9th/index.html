@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication</title>
+</head>
+
+<body>
+    <input type="number" id="first" placeholder="Enter 1st Number">
+    <input type="number" id="second" placeholder="Enter 2nd Number">
+    <input type="number" id="third" placeholder="Enter 3rd Number">
+    <button id="btn">Multiply</button>
+    <p id="ans"></p>
+    <script>
+
+        
+        var btn = document.getElementById('btn')
+        function fn() {
+            var in1 = document.getElementById('first').value
+            var in2 = document.getElementById('second').value
+            var in3 = document.getElementById('third').value
+            // var mul = in1 * in2 * in3
+            function mul(in1)
+            {
+                return function (in2){
+                    return function(in3){
+
+                       document.getElementById('ans').innerText = "Multiplication of three number = "+(in1*in2*in3)
+                    }
+                }
+            }
+            mul(in1)(in2)(in3)
+        }
+        btn.addEventListener('click', fn)
+    </script>
+</body>
+
+</html>
