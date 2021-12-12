@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(58, 58, 58);
+}
+#table{
+    font-family: Arial;
+    border-collapse: collapse;
+    margin: 5% auto;
+    width: 80%;
+}
+#table th, #table td{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+th{
+    background-color: tomato;
+    font-size: larger;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#table tr{
+    background-color: rgb(252, 151, 151);
+}
+
+#table td{
+    text-align: center;
+}
