@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0;
+    height: 8vh;
+}
+
+.bBox {
+    width: 25%;
+    height: 70vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    position: relative;
+    top: -300px;
+}
+
+button {
+    width: 8vw;
+    height: 5vh;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(0, 81, 255);
+    transform: scale(1.2);
+}
+
+.mBox {
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: inline;
+    width: 70vw;
+    height: 90vh;
+}
