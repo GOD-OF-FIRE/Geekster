@@ -22,18 +22,3 @@ s.then(function(info){
     }
 
 });
-
-
-
-
-
-
-
-// function displayData(data){
-//     data.forEach(function(element){
-//         console.log(element);
-//         document.createElement('tr');
-//         document.createElement('td');
-//     });
-// }
-
