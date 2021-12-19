@@ -10,7 +10,8 @@ h1 {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  background-color: rgb(255, 136, 0);
+  background: rgb(242,249,62);
+  background: linear-gradient(180deg, rgba(242,249,62,1) 0%, rgba(255,136,0,1) 50%, rgba(254,255,0,1) 100%);
   box-shadow: 0 0 100px yellow;
   display: flex;
   align-items: center;
