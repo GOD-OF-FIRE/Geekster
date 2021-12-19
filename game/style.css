@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: rgb(255, 136, 0);
+  box-shadow: 0 0 100px yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: fantasy;
+  color: yellow;
+  margin-top: 40px;
+}
+hr {
+  width: 80vw;
+  background-color: yellow;
+}
+body {
+  background-color: rgb(46, 49, 53);
+  margin: 0;
+  padding: 0;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
